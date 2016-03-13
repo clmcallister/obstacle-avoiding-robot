@@ -19,8 +19,6 @@ Servo pingServo;
 
 NewPing sonar(PING_PIN, PING_PIN, MAX_DISTANCE);
 
-boolean isFarObstacle = false;
-boolean isCloseObstacle = false;
 int robotCenter = 90;
 
 void setup() {
